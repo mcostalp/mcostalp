@@ -1,0 +1,56 @@
+ol li {
+    background-color: yellow;
+}
+
+ol li:nth-child(even) {
+    color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: lowercase;
+}
+
+h1, h2, h3, h4 {
+    color: red;
+}
+
+h1 em, h2 em, h3 em, h4 em {
+    font-size: 40px;
+    border: solid 20px black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+.languages li:nth-child(-n+3) {
+    color: blue;
+}
+
+.languages li:nth-child(n+2):nth-child(-n+3) {
+    background-color: hotpink;
+}
+
+.sites li:nth-child(1):hover {
+    background-color: orange;
+}
+
+.sites li:nth-child(2):hover {
+    background-color: green;
+}
+
+.sites li:nth-child(3):hover {
+    background-color: black;
+}
+
+.sites li:nth-child(4):hover {
+    background-color: yellow;
+}
+
+.sites li:nth-child(5):hover {
+    background-color: rgb(0, 235, 20);
+}
